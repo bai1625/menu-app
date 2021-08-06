@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+/*//import logo from './logo.svg';
+//import './App.css';
 
 function App() {
   return (
@@ -22,4 +22,11 @@ function App() {
   );
 }
 
+export default App;*/
+
+import React from "react";
+import Resturent from "./component/basics/resturent";
+const App = () => {
+  return <Resturent />;
+};
 export default App;
